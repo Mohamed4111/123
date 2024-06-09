@@ -8,7 +8,7 @@ h1{
     width: 200px;
     padding: 20px;
     font-size: 15pt;
-    margin-left: 100px;
+    margin-left: 30%;
 }
 
 button{
@@ -17,6 +17,7 @@ button{
     width: 100px;
     height: 100px;
     margin-top: 10%;
+    margin-left: 34%;
     animation: 10s linear 0s infinite running mycolorchange;
 }
 button:hover{
