@@ -1,0 +1,40 @@
+body{
+background-color: gray;
+}
+p{
+    border: 2px solid;
+    text-align: center;
+    height: auto;
+    width: 200px;
+    padding: 20px;
+    font-size: 15pt;
+    float: left;
+    margin-left: 20px;
+}
+
+button{
+    color: aqua;
+    background: black;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10%;
+    animation: 10s linear 0s infinite running mycolorchange;
+}
+button:hover{
+    color: brown;
+    background: chocolate;
+}
+button:active{
+    color: blueviolet;
+    background: tomato;
+}
+
+@keyframes mycolorchange{
+    20%{background-color: aqua;}
+    40%{background-color: blue;}
+    60%{background-color: red;}
+    80%{background-color: yellow;}
+    100%{background-color: green;}
+
+}
