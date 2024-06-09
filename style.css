@@ -16,7 +16,6 @@ button{
     background: black;
     width: 100px;
     height: 100px;
-    margin-left: 100px;
     margin-top: 10%;
     animation: 10s linear 0s infinite running mycolorchange;
 }
