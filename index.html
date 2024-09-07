@@ -3,17 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Gym Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>Dosy 3leh</h1>
-    <script> 
-        function clickhandler(){
-            alert("B7bk");
-        }
-    </script>
-    <button type="button" onclick="clickhandler()">Click me</button>
+    <header>
+        <h1>My Gym</h1>
+    </header>
 
+    <div class="topnav">
+        <a class="active" href="#home">About us</a>
+        <a href="#classes">Classes</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact us</a>
+       <a href="contact.html">Sign up Trainer</a>
+       <a href="contact.html">Sign up Member</a>
+      </div>
+    <section class="home">
+    
+        <h2 class="h1">About Us</h2>
+        <p class="h2">Welcome to My Gym! We offer a variety of fitness classes and programs to help you achieve your fitness goals.</p>
+        <img src="Serious-Training.png" alt="Gym Image"/> 
+    </section>
+    <section id="classes">
+        <h2>Classes</h2>
+        <ul>
+            <li class="Cardio"><img src="6345723ef3172a64f8e3b7e2_Kickboxing Gym in Norwalk.jpg" alt="Gym Class"  style="border: solid 2px black; width: 20%;"><br>
+                Cardio Kickboxing</li>
+            <li class="Yoga"><img src="man-and-woman-doing-yoga-stretch-in-a-gym-royalty-free-image-479760469-1540325200.jpg" alt="" style="border: solid 2px black; width: 20%;"><br>
+                Yoga</li>
+            <li class="st"> <img src="gym-workout-plan-for-gaining-muscle_header.jpg" alt="" style="border: solid 2px black; width: 20%;"><br>
+                Strength Training</li>
+        </ul>
+    </section>
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <p>Check out our class schedule:</p>
+        <table>
+            <tr>
+                <th>Class</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Cardio Kickboxing</td>
+                <td>Monday, Wednesday, Friday</td>
+                <td>6:00 PM - 7:00 PM</td>
+            </tr>
+            <tr>
+                <td>Yoga</td>
+                <td>Tuesday, Thursday</td>
+                <td>7:00 AM - 8:00 AM</td>
+            </tr>
+            <tr>
+                <td>Strength Training</td>
+                <td>Monday, Wednesday</td>
+                <td>9:00 AM - 10:00 AM</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us:</p>
+        <p>Email: info@mygym.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Gym. All rights reserved.</p>
+    </footer>
 </body>
 </html>
