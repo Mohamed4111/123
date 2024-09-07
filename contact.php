@@ -3,17 +3,17 @@
 if(isset($_POST['txtName']))
 {
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
-$con = mysqli_connect('localhost', 'root', '','db_contact');
+$con = mysqli_connect('localhost', 'root', '','gym');
 
 // get the post records
 
 $txtName = $_POST['txtName'];
-$txtEmail = $_POST['txtEmail'];
+$txtlName = $_POST['txtlname']; 
 $txtPhone = $_POST['txtPhone'];
-$txtMessage = $_POST['txtMessage'];
+$txtEmail = $_POST['txtEmail'];
 
 // database insert SQL code
-$sql = "INSERT INTO `tbl_contact` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fldMessage`) VALUES ('0', '$txtName', '$txtEmail', '$txtPhone', '$txtMessage')";
+$sql = "INSERT INTO `trainer` (`id`, `f_name`, `l_name`, `phone`, `email`) VALUES ('0', '$txtName', '$txtlName' , '$txtPhone', '$txtEmail')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);

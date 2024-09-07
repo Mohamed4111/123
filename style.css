@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #9b9b9b;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 header {
     background-color: #333;
@@ -15,9 +18,12 @@ header {
     font-size: xx-large;
     text-align: center;
     height: 1000px;
-    background-image: url(maxresdefault.jpg);
+    background-image: url(maxresdefault.jpg) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    max-width: 100%;
  
-    background-size: cover;
 }
 .topnav {
 overflow: hidden;
@@ -44,6 +50,7 @@ color: white;
 }
 section {
     padding: 20px;
+
 }
 footer {
     background-color: #333;
@@ -59,4 +66,20 @@ th, td {
   text-align: left;
   border: 1px solid;
 }
+.yoga{
+    margin-left: 100px;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    border: solid 2px black;
+    margin-left: 20px;
+    flex: 33.33%;
+    padding: 2px;
+  }
 
+img{
+    max-width: 100%;
+}

@@ -7,17 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Gym</h1>
-    </header>
+
 
     <div class="topnav">
         <a class="active" href="#home">About us</a>
         <a href="#classes">Classes</a>
+        <a href="plans.html">Plans</a>
         <a href="#schedule">Schedule</a>
         <a href="#contact">Contact us</a>
        <a href="contact.html">Sign up Trainer</a>
-       <a href="contact.html">Sign up Member</a>
+       <a href="contact2.html">Sign up Member</a>
       </div>
     <section class="home">
     
@@ -25,15 +24,23 @@
         <p class="h2">Welcome to My Gym! We offer a variety of fitness classes and programs to help you achieve your fitness goals.</p>
         <img src="Serious-Training.png" alt="Gym Image"/> 
     </section>
-    <section id="classes">
+    <section id="classes" class="classes">
         <h2>Classes</h2>
         <ul>
-            <li class="Cardio"><img src="6345723ef3172a64f8e3b7e2_Kickboxing Gym in Norwalk.jpg" alt="Gym Class"  style="border: solid 2px black; width: 20%;"><br>
-                Cardio Kickboxing</li>
-            <li class="Yoga"><img src="man-and-woman-doing-yoga-stretch-in-a-gym-royalty-free-image-479760469-1540325200.jpg" alt="" style="border: solid 2px black; width: 20%;"><br>
-                Yoga</li>
-            <li class="st"> <img src="gym-workout-plan-for-gaining-muscle_header.jpg" alt="" style="border: solid 2px black; width: 20%;"><br>
-                Strength Training</li>
+            <div class="row">
+                <div class="column">
+                  <img src="6345723ef3172a64f8e3b7e2_Kickboxing Gym in Norwalk.jpg" alt="Kickboxing" style="width:100%">
+                  <li><strong>Kickboxing</strong></li>
+                </div>
+                <div class="column">
+                  <img src="man-and-woman-doing-yoga-stretch-in-a-gym-royalty-free-image-479760469-1540325200.jpg" alt="yoga" style="width:100%">
+                  <li><strong>yoga</strong></li>
+                </div>
+                <div class="column">
+                  <img src="gym-workout-plan-for-gaining-muscle_header.jpg" alt="Strength" style=" width:100% ">
+                  <li><strong>Strength training</strong></li>
+                </div>
+              </div> 
         </ul>
     </section>
     <section id="schedule">
@@ -46,7 +53,7 @@
                 <th>Time</th>
             </tr>
             <tr>
-                <td>Cardio Kickboxing</td>
+                <td>Kickboxing</td>
                 <td>Monday, Wednesday, Friday</td>
                 <td>6:00 PM - 7:00 PM</td>
             </tr>
